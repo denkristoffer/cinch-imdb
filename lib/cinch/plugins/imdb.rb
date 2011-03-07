@@ -9,9 +9,7 @@ module Cinch
         super
 
         @imdb = FilmBuff::IMDb.new
-        # Uncomment below if you want results returned in another language
-        # Valid locales are "de_DE", "en_US", "es_ES", "fr_FR", "it_IT" "pt_PT"
-        # @imdb.locale = "de_DE"
+        @imdb.locale = config[:locale] if config[:locale]
       end
 
       match /imdb (.+)/i
