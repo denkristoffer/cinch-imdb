@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "cinch-imdb"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Kristoffer Sachse"]
   s.email       = ["kristoffer@sachse.nu"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "cinch-imdb"
 
   s.add_dependency("cinch", "~> 1.0")
-  s.add_dependency("filmbuff")
+  s.add_dependency("filmbuff", ">= 0.1.0")
 
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]

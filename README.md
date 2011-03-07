@@ -2,7 +2,7 @@
 
 ## Description
 
-This plugin uses the Film Buff gem to access data from IMDb.com.
+This plugin uses the [Film Buff gem](https://github.com/sachse/filmbuff) to access data from IMDb.com.
 
 ## Installation
 
